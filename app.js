@@ -1,10 +1,12 @@
 var x = 0;
 var y = 0;
 
-function sum(arr) {
-    var total = 0;
-    for (i = 0; i < arr.length; i++) {
-        total += arr[i];
+var array = [1, 2, 3, 4];
+
+function sum(array) {
+    var s = 0;
+    for (i = 0; i < array.length; i++) {
+        s += array[i];
     }
-    return total;
+    return s;
 }
